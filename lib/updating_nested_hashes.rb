@@ -1,4 +1,3 @@
-require 'pry'
 def update_status
    epic_tragedy = {
       :montague => {
@@ -64,12 +63,7 @@ def add_characters
    # Code your solution here:
    epic_tragedy[:additional_characters] = [{:name => "Prince Escalus"},{:name => "Apothecary"}]
    
-   binding.pry
-
-
-
-
-
+  
    # After your code, the following line will return the altered hash
    epic_tragedy
 end
